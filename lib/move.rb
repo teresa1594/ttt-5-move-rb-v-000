@@ -7,8 +7,12 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
-  puts "Where would you like to go?"
-  input = gets.strip
-  display_board(input)
+
+
+def input_to_index(string)
+  string.to_i - 1
 end
 
+def move(board, index, user_marker = "X")
+  board[index.to_i] = user_marker
+end
