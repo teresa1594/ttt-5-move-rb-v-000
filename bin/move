@@ -13,8 +13,5 @@ def input_to_index(string)
   string.to_i - 1
 end
 
-
-
-input_to_index(index)
 move(board, index, user_marker = "X")
 display_board(board)
