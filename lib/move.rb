@@ -12,5 +12,3 @@ def input_to_index
   input_to_index = gets.strip
   display_board(board)
 end
-
-
